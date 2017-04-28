@@ -1,0 +1,110 @@
+body {
+  background: #202020;
+}
+
+table {
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+}
+
+table tr:not(.no-def) td:nth-child(1) {
+  width: 30%;
+}
+
+table tr:not(.no-def) td:nth-child(2) {
+  width: 70%;
+}
+
+table tr.no-def td:nth-child(1) {
+  background: black;
+}
+
+table tr.no-def td:nth-child(2) {
+  background: #404040;
+}
+
+table tr.no-def td:nth-child(odd) {
+  width: 20%;
+}
+
+table t.no-def td:nth-child(even) {
+  width: 80%;
+}
+
+img {
+  padding: 8px;
+}
+
+tr:not(.no-def) {
+  height: 50px;
+  border-top: 2px solid #404040;
+  border-bottom: 2px solid #404040;
+}
+
+tr:not(.no-def) td {
+  /*white-space: nowrap;*/
+  text-align: center;
+  padding: 8px;
+}
+
+tr.no-def td {
+  /*white-space: nowrap;*/
+  text-align: left;
+  padding: 3px;
+  border:  1px solid #202020;
+}
+
+tr.affix {
+  margin: 4px;
+}
+
+.ui-name, .si-name, .rw-name, .r-name {
+  font-weight: bold;
+}
+
+.base-props, .props {
+  margin: 3px;
+}
+
+.bonus-props {
+  margin: 10px;
+}
+
+.set-props {
+  background: #303030;
+  border: 2px solid #404040;
+}
+
+.set-name {
+  text-shadow: 2px 2px 5px #A6745E;
+}
+
+.white, .base-props, .rw-name, .rw-bonus, .g-name, .g-bonus, td {
+  color: #DEDEDE;
+}
+
+.blue, .props, .bonus-props {
+  color: #6969FF;
+}
+
+.yellow {
+  color: #CECE51;
+}
+
+.green, .si-name, .partial-props {
+  color: #00CE00;
+}
+
+.gold, .ui-name, .set-name, .full-props {
+  color: #A6945E;
+}
+
+.amber {
+  color: #FFBF00;
+}
+
+.red {
+  color: #CE3E3E;
+}
